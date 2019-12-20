@@ -495,7 +495,12 @@
         margin-bottom: 15px;
     }
 
-
+    .mappop {
+        left: 0 !important;
+        bottom: initial !important;
+        top: 65% !important;
+        right: initial !important;
+    }
 
 
     .about {
@@ -621,6 +626,9 @@
     .maintopslider__slide {
         padding-right: 85px;
     }
+
+
+
 }
 
 @media(max-width:767.8px) {
@@ -985,8 +993,23 @@
         top: 17px;
     }
 
+    .mappop {
+        width: 120px;
+    }
 
+    .mappop span {
+        font-size: 14px;
+    }
 
+    .mappop {
+        left: 0 !important;
+        bottom: initial !important;
+        top: 0% !important;
+        right: initial !important;
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+    }
 
 
 
@@ -1113,6 +1136,10 @@
 
     .footer__topsect {
         padding: 18px 20px 15px 20px;
+    }
+
+    .mappop {
+        max-width: 150px;
     }
 }
 

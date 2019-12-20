@@ -957,6 +957,176 @@ header.header {
     display: none;
 }
 
+/* -- */
+.mapwrapper {
+    position: relative;
+}
+
+.mappop {
+    position: absolute;
+    background-color: #d9d9da;
+    width: 150px;
+    height: auto;
+    display: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+}
+
+.mappop span {
+    font-family: GothaProNarMed;
+    text-align: center;
+    display: block;
+}
+
+.mappop img {
+    max-width: 100%;
+}
+
+.mappop[data-obl="simfer"] {
+    left: 62%;
+    top: 80%;
+}
+
+.mappop[data-obl="herson"] {
+    right: 33%;
+    top: 63%;
+}
+
+.mappop[data-obl="zapor"] {
+    right: 21%;
+    top: 55%;
+}
+
+.mappop[data-obl="donetsk"] {
+    right: 11%;
+    top: 45%;
+}
+
+.mappop[data-obl="lugansk"] {
+    right: 5%;
+    top: 34%;
+}
+
+.mappop[data-obl="harkiv"] {
+    right: 18%;
+    top: 27%;
+}
+
+.mappop[data-obl="dnepr"] {
+    right: 27%;
+    top: 42%;
+}
+
+.mappop[data-obl="mykolaiv"] {
+    right: 42%;
+    top: 55%;
+}
+
+.mappop[data-obl="odesa"] {
+    right: 52%;
+    top: 63%;
+}
+
+.mappop[data-obl="kirov"] {
+    right: 40%;
+    top: 42%;
+}
+
+.mappop[data-obl="poltava"] {
+    right: 33%;
+    top: 28%;
+}
+
+.mappop[data-obl="sumy"] {
+    right: 31%;
+    top: 11%;
+}
+
+.mappop[data-obl="chernigiv"] {
+    right: 42%;
+    top: 9%;
+}
+
+.mappop[data-obl="cherkasy"] {
+    right: 45%;
+    top: 33%;
+}
+
+.mappop[data-obl="kiiv"] {
+    right: 49%;
+    top: 22%;
+}
+
+.mappop[data-obl="vinn"] {
+    right: 59%;
+    top: 36%;
+}
+
+.mappop[data-obl="jitom"] {
+    right: 60%;
+    top: 17%;
+}
+
+.mappop[data-obl="hmel"] {
+    left: 23%;
+    top: 30%;
+}
+
+.mappop[data-obl="rivne"] {
+    left: 21%;
+    top: 12%;
+}
+
+.mappop[data-obl="lutsk"] {
+    left: 14%;
+    top: 9%;
+}
+
+.mappop[data-obl="ternop"] {
+    left: 17%;
+    top: 30%;
+}
+
+.mappop[data-obl="lviv"] {
+    left: 8%;
+    top: 25%;
+}
+
+.mappop[data-obl="ivanfr"] {
+    left: 11%;
+    top: 39%;
+}
+
+.mappop[data-obl="chernivci"] {
+    left: 18%;
+    top: 42%;
+}
+
+.mappop[data-obl="ujgorod"] {
+    left: 4%;
+    top: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -31,4 +31,36 @@ $(document).ready(function () {
     $('.closemenu').click(function () {
         $('.header__nav').fadeOut();
     });
+
+    // map
+    $('#simfer').click(function () {
+        $('.mappop').fadeIn();
+    });
+
+
+    $('#map > g').click(function () {
+        var obl = $(this).attr('id');
+        $('.mappop').attr('data-obl', obl);
+        $('.mappop').show();
+
+        var text = $(this).attr('data-text');
+        $('.mappop span').text(text);
+
+        var img = $(this).attr('data-img');
+        $('.mappop img').attr('data-img');
+        $('.mappop img').attr('src', img);
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
 });
