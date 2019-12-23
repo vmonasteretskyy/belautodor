@@ -3,7 +3,7 @@
         max-width: 200px;
     }
 
-    .header__nav ul li.active:after {
+    .header__nav ul li:after {
         height: 3px;
         bottom: -9px;
     }
@@ -29,7 +29,7 @@
     }
 
     .new__picblock .newsgenpic {
-        height: auto;
+        height: 325px;
     }
 
     .new__textblock .date {
@@ -126,6 +126,9 @@
         padding: 15px 100px;
     }
 
+    .header__nav ul li .menuborder {
+        height: 4px;
+    }
 
 
 
@@ -191,6 +194,8 @@
     }
 }
 
+
+
 @media(max-width:1199.1px) {
     .container-sect {
         max-width: 1000px;
@@ -204,7 +209,9 @@
         height: calc(100% - 54px);
     }
 
-
+    .new__picblock .newsgenpic {
+        height: 280px;
+    }
 
 
 
@@ -502,6 +509,9 @@
         right: initial !important;
     }
 
+    .new__picblock .newsgenpic {
+        height: 205px;
+    }
 
     .about {
         padding: 26px 0 35px 0;
@@ -573,12 +583,16 @@
         border-radius: 20px 0 0 20px;
     }
 
-    .header__nav>ul {
+    .header__nav>div {
         height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+
+    .header__nav ul {
+
         padding: 100px 0;
     }
 
@@ -1011,13 +1025,30 @@
         margin: 0 auto;
     }
 
+    .header__nav ul li:after {
+        display: none;
+    }
 
+    .new__picblock .newsgenpic {
+        height: auto;
+    }
 
+    .new__picblock .newsgenpic img {
+        object-fit: none;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
 
-
-
-
-
+    .new__picblock:hover .newsgenpic img {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
 
     /* fz */
     .mark-news span,
@@ -1090,7 +1121,7 @@
         height: 100%;
     }
 
-    .header__nav>ul {
+    .header__nav ul {
         padding: 20px 0;
         display: block;
     }
@@ -1209,13 +1240,13 @@
 
 /* - */
 @media(max-width:991.8px) and (min-width:767px) and (max-height:900px) {
-    .header__nav>ul {
+    .header__nav ul {
         padding: 50px 0;
     }
 }
 
 @media(max-width:991.8px) and (min-width:767px) and (max-height:800px) {
-    .header__nav>ul {
+    .header__nav ul {
         padding: 20px 0;
     }
 
