@@ -1139,9 +1139,17 @@ header.header {
     top: 40%;
 }
 
+text.countanim {
+    color: #dab544;
+    position: relative;
+    left: initial;
+    top: initial;
+    text-align: right;
+}
 
-
-
+.header__nav ul li:first-child {
+    display: none;
+}
 
 
 
