@@ -63,8 +63,6 @@ $(document).ready(function () {
         $('.preloader-page').delay(2000).fadeOut();
     })
 
-
-
 });
 
 
