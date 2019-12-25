@@ -2020,7 +2020,8 @@
         margin-right: 0;
     }
 
-    .company__post .row .col-lg-6 {
+    .company__post .row .col-lg-6,
+    .company__post .row .col-lg-5 {
         padding-left: 0;
         padding-right: 0;
     }
