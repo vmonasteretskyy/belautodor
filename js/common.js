@@ -53,15 +53,71 @@ $(document).ready(function () {
     });
 
 
-    // COUNT TO
-
-
     // preloader
-
-
     $(function hideDiv() {
         $('.preloader-page').delay(2000).fadeOut();
-    })
+    });
+
+    // Company slider
+    $('.company-machinery').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        initialSlide: 1,
+        infinite: false,
+        asNavFor: '.company-characteristics',
+        centerMode: true,
+        focusOnSelect: true,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            }
+        ]
+
+    });
+    $('.company-characteristics').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1,
+        infinite: false,
+        asNavFor: '.company-machinery',
+        dots: false,
+        arrows: false,
+        fade: true
+
+    });
+
+    $('.company-project__slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        initialSlide: 1,
+        infinite: false,
+        centerMode: true,
+        focusOnSelect: true,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            }
+        ]
+
+    });
+
+
 
 });
 

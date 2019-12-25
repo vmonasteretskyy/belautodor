@@ -130,12 +130,157 @@
         height: 4px;
     }
 
-
-
-
-
     .new__textblock .descr {
         line-height: 24px;
+    }
+
+    header.header.blue {
+        padding: 20px 100px;
+    }
+
+    header.header.blue .header__nav ul li a {
+        font-size: 20px;
+    }
+
+    .diract__titlebox .title,
+    .machinery h3,
+    .technology h3,
+    .company-project h3 {
+        margin-bottom: 60px;
+        padding: 20px 0;
+    }
+
+    .company-firstscreen {
+        height: calc(100vh + 150px);
+    }
+
+    .diract__titlebox {
+        margin-top: -148px;
+    }
+
+    .comp-linet__text:after {
+        width: 4px;
+    }
+
+    .comp-linet__text:after {
+        height: 70px;
+    }
+
+    .company__linetexts .comp-linet__top {
+        height: 230px;
+        padding-bottom: 100px;
+    }
+
+    .comp-linet__top .comp-linet__text:after {
+        margin-bottom: -99px;
+    }
+
+    .company__linetexts .comp-linet__bottom {
+        height: 230px;
+        padding-top: 100px;
+    }
+
+    .comp-linet__bottom .comp-linet__text:after {
+        margin-top: -102px;
+    }
+
+    .comp-linet__text p {
+        width: 250px;
+    }
+
+    .comp-linet__bottom .comp-linet__text {
+        transform: translateX(49.8%);
+        -webkit-transform: translateX(49.8%);
+        -moz-transform: translateX(49.8%);
+        -ms-transform: translateX(49.8%);
+        -o-transform: translateX(49.8%);
+    }
+
+    .company__post-pic .picbox,
+    .company__post-pic .colorbox {
+        height: 400px;
+    }
+
+    .company__post-pic .picbox {
+        width: calc(100% - 30px);
+        margin-top: 30px;
+    }
+
+    .company__post-descr .title {
+        height: 100px;
+    }
+
+    .company__posts .company__post:nth-child(odd):before {
+        height: calc(100% - 167px);
+    }
+
+    .company__post-descr .title {
+        margin-bottom: 40px;
+    }
+
+    .company__post-descr {
+        padding-top: 25px;
+    }
+
+    .machinery {
+        padding-top: 80px;
+    }
+
+    .machinery .subtitle,
+    .technology .subtitle,
+    .company-project .subtitle {
+        padding-bottom: 30px;
+        margin-bottom: 60px;
+    }
+
+    .company-machinery__slide {
+        height: 380px;
+    }
+
+    .company-characteristics .yellow-line,
+    .company-characteristics .slick-current .blue-line {
+        height: 20px;
+    }
+
+    .characteristics__field p {
+        margin-bottom: 5px;
+    }
+
+    .company-characteristics {
+        width: 460px;
+    }
+
+    .characteristics__box .characteristics__field {
+        margin-bottom: 10px;
+    }
+
+    .company-machinery .slick-arrow,
+    .company-project__slider .slick-arrow {
+        width: 30px;
+        height: 60px;
+        background-size: 100%;
+    }
+
+    .company-project__slider .slick-slide.slick-current .company-project__slide a {
+        font-size: 24px;
+        padding: 10px 0;
+        max-width: 240px;
+    }
+
+    .company-project__slider .company-project__slide .picbox {
+        height: 240px;
+    }
+
+    .company-project__slider .company-project__slide {
+        padding: 25px 20px 20px 20px;
+    }
+
+    .company-bottpic:after {
+        height: 150px;
+    }
+
+    .company-firstscreen>p {
+        margin-top: -100px;
     }
 
     /*1600 fz */
@@ -143,7 +288,8 @@
         font-size: 16px;
     }
 
-    .slider__title {
+    .slider__title,
+    .company-firstscreen>p {
         font-size: 60px;
     }
 
@@ -151,14 +297,31 @@
     .genh3,
     h3:not(.circh3),
     .abvtext .title,
-    .geograph-projlink {
+    .geograph-projlink,
+    .diract__titlebox .title,
+    .machinery h3,
+    .technology h3,
+    .company-project h3,
+    .company-characteristics__slide>p {
         font-size: 42px;
     }
 
     .about__linetexts-top span,
     .about__linetexts-bottom span,
-    .footer__list li:first-child a {
+    .footer__list li:first-child a,
+    .machinery .subtitle,
+    .technology .subtitle,
+    .company-project .subtitle {
         font-size: 32px;
+    }
+
+    .company__post-descr .title,
+    .company-project__slider .slick-slide.slick-current .company-project__slide .descrbox .title {
+        font-size: 24px;
+    }
+
+    .comp-linet__text {
+        font-size: 22px;
     }
 
     .header__nav ul li a,
@@ -167,12 +330,17 @@
     }
 
     .abvtext .subtitle,
-    .footer__list li a {
+    .footer__list li a,
+    .company__post-descr .descr p,
+    .characteristics__field p,
+    .company-project__slider .company-project__slide .descrbox .title,
+    .company-project__slider .company-project__slide .descrbox .descr {
         font-size: 18px;
     }
 
     /* padd */
-    .news {
+    .news,
+    .technology {
         padding-top: 100px;
     }
 
@@ -192,9 +360,19 @@
     .footer__list li {
         margin-bottom: 15px;
     }
+
+    .company__linetexts {
+        margin-bottom: 80px;
+    }
 }
 
+@media(max-width:1367.1px) {
 
+    .company__post-pic .picbox,
+    .company__post-pic .colorbox {
+        height: 300px;
+    }
+}
 
 @media(max-width:1199.1px) {
     .container-sect {
@@ -213,10 +391,30 @@
         height: 280px;
     }
 
+    .company__posts .company__post:nth-child(odd) .company__post-descr .title:after,
+    .company__posts .company__post:nth-child(odd):before,
+    .company__posts .company__post:nth-child(odd):after,
+    .company__posts .company__post:nth-child(even):before {
+        display: none;
+    }
 
+    .company__post-descr .descr p:not(:first-child) {
+        display: none;
+    }
 
+    .company__post-descr .descr p {
+        margin-bottom: 0;
+    }
 
+    .company__post-pic .picbox,
+    .company__post-pic .colorbox {
+        height: 335px;
+    }
 
+    .company__post {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     /* fz 1199 */
     .header__nav ul li a,
@@ -517,7 +715,28 @@
         padding: 26px 0 35px 0;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* max-width: 725px; */
+
+
+
     /* fz 1024 */
+    .company-firstscreen>p {
+        font-size: 49px;
+    }
+
     .news h3 {
         font-size: 38px;
     }
@@ -544,9 +763,23 @@
         font-size: 31px;
     }
 
+    .company-firstscreen {
+        height: 100vh;
+    }
 
+    .directions-activity {
+        padding-top: 50px;
+    }
 
+    .diract__titlebox {
+        margin-top: 0;
+    }
 
+    .company-project {
+        padding-top: 100px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 
 
     /* padd */
@@ -642,7 +875,318 @@
     }
 
 
+    .company-firstscreen {
+        padding-right: 90px;
+    }
 
+    .company-firstscreen>p {
+        margin-top: 0;
+    }
+
+    .diract__titlebox .title {
+        margin-bottom: 125px;
+    }
+
+
+    .diract__titlebox,
+    .titbox-comp {
+        width: 100%;
+        max-width: 595px;
+        margin: 0 auto;
+    }
+
+    .company__linetexts {
+        max-width: 100%;
+        display: flex;
+    }
+
+    .company__linetexts .comp-linet__top,
+    .company__linetexts .comp-linet__bottom {
+        height: auto;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: block;
+        padding-top: 0;
+    }
+
+    .comp-linet__text {
+        width: 100%;
+        display: block;
+    }
+
+    .comp-linet__bottom .comp-linet__text {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+
+    .company__linetexts .comp-linet__top:after {
+        width: 4px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        left: initial;
+        bottom: initial;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text {
+        padding-right: 75px;
+    }
+
+    .company__linetexts .comp-linet__bottom .comp-linet__text {
+        padding-left: 75px;
+    }
+
+    .comp-linet__text p {
+        width: 100%;
+        font-size: 18px;
+        max-width: 225px;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .comp-linet__bottom .comp-linet__text:after {
+        height: 4px;
+        width: 56px;
+        margin-top: 35px;
+        left: 0;
+    }
+
+    .comp-linet__top .comp-linet__text:after {
+        height: 4px;
+        width: 56px;
+        margin-top: 35px;
+        right: 0;
+        left: initial;
+        margin-bottom: initial;
+        top: 0;
+    }
+
+    .directions-activity .boxovhidd {
+        overflow: initial;
+    }
+
+    .diract__titlebox {
+        background-color: transparent;
+    }
+
+    .comp-linet__bottom .comp-linet__text:first-child p {
+        margin-top: -35px;
+    }
+
+    .comp-linet__bottom .comp-linet__text:first-child:after {
+        margin-top: -1px;
+    }
+
+    .company__linetexts .comp-linet__bottom .comp-linet__text,
+    .company__linetexts .comp-linet__top .comp-linet__text {
+        margin-bottom: 340px;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text {
+        text-align: right;
+    }
+
+    .company__linetexts .comp-linet__bottom .comp-linet__text {
+        text-align: left;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text p,
+    .company__linetexts .comp-linet__bottom .comp-linet__text p {
+        text-align: center;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text:first-child {
+        margin-top: 180px;
+    }
+
+    .company__linetexts .comp-linet__top,
+    .company__linetexts .comp-linet__bottom {
+        padding-bottom: 0;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text:last-child {
+        margin-bottom: 250px;
+    }
+
+    .company__posts {
+        max-width: 655px;
+        width: 100%;
+    }
+
+    .company__post-pic .picbox {
+        width: calc(100% - 15px);
+        margin-top: 15px;
+    }
+
+    .company__post-pic .picbox,
+    .company__post-pic .colorbox {
+        height: 220px;
+    }
+
+    .company__post-descr .title {
+        font-size: 18px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .company__post-descr .title:before {
+        height: 1px;
+        width: 44px;
+    }
+
+    .company__post-descr .title {
+        margin-bottom: 29px;
+    }
+
+    .company__post-descr .descr p {
+        font-size: 15px;
+    }
+
+    .company__post-descr .descr {
+        padding: 10px;
+    }
+
+    .company__post-descr {
+        padding-top: 15px;
+    }
+
+    .company__post {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .machinery {
+        padding-top: 30px;
+    }
+
+    .machinery .subtitle:after,
+    .technology .subtitle:after {
+        max-width: 164px;
+        height: 1px;
+    }
+
+    .machinery .subtitle,
+    .technology .subtitle,
+    .company-project .subtitle {
+        margin-bottom: 50px;
+        font-size: 21px;
+    }
+
+    .company-slidersect {
+        padding: 0 55px;
+    }
+
+    .company-machinery__slide {
+        height: 235px;
+    }
+
+    .company-characteristics {
+        max-width: 250px;
+    }
+
+    .company-characteristics__slide>p {
+        margin-bottom: 20px;
+    }
+
+    .company-characteristics {
+        margin-top: 8px;
+    }
+
+    .company-characteristics .yellow-line,
+    .company-characteristics .slick-current .blue-line {
+        height: 12px;
+    }
+
+    .characteristics__box {
+        padding: 10px 15px 20px 15px;
+    }
+
+    .technology {
+        padding-top: 50px;
+    }
+
+    .machinery h3,
+    .technology h3 {
+        margin-bottom: 25px;
+    }
+
+    .company-project {
+        padding-top: 50px;
+    }
+
+    .company-project__slider .company-project__slide .picbox {
+        height: 175px;
+    }
+
+    .company-machinery .slick-arrow,
+    .company-project__slider .slick-arrow {
+        height: 40px;
+        width: 20px;
+    }
+
+    .company-project__slider .slick-slide.slick-current .company-project__slide .descrbox .title {
+        font-size: 17px;
+    }
+
+    .company-project__slider .company-project__slide .descrbox .title {
+        font-size: 10px;
+        padding: 11px 0;
+        margin-bottom: 7px;
+    }
+
+    .company-project__slider .company-project__slide {
+        padding: 10px;
+    }
+
+    .company-project__slider .company-project__slide .descrbox .descr {
+        font-size: 12px;
+    }
+
+
+    .company-project__slider .company-project__slide .picbox {
+        margin-bottom: 10px;
+    }
+
+    .company-project__slider .company-project__slide .descrbox .descr {
+        height: auto;
+    }
+
+    .company-project__slider .slick-slide.slick-current .company-project__slide a {
+        max-width: 115px;
+        padding: 5px 0;
+    }
+
+    .company-bottpic:after {
+        display: none;
+    }
+
+    .company-bottpic {
+        max-height: 420px;
+    }
+
+    /* 991 fa */
+    .diract__titlebox .title,
+    .machinery h3,
+    .technology h3,
+    .company-project h3 {
+        font-size: 31px;
+    }
+
+    .company-characteristics__slide>p {
+        font-size: 28px;
+    }
+
+    .company-project__slider .slick-slide.slick-current .company-project__slide a {
+        font-size: 17px;
+    }
+
+    .characteristics__field p {
+        font-size: 10px;
+    }
 }
 
 @media(max-width:767.8px) {
@@ -1056,10 +1600,248 @@
         -o-transform: none;
     }
 
+    .company-firstscreen {
+        padding-right: 0;
+    }
+
+    header.header.blue {
+        padding: 0 15px;
+    }
+
+    .diract__titlebox .container-sect,
+    .titbox-comp .container-sect {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .directions-activity {
+        padding-top: 30px;
+    }
+
+    .diract__titlebox .title {
+        padding: 15px 0;
+    }
+
+    .diract__titlebox .title {
+        margin-bottom: 90px;
+    }
+
+    .comp-linet__bottom .comp-linet__text:after {
+        width: 44px;
+    }
+
+    .comp-linet__top .comp-linet__text:after {
+        width: 44px;
+    }
+
+    .company__linetexts .comp-linet__bottom .comp-linet__text {
+        padding-left: 55px;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text {
+        padding-right: 55px;
+    }
+
+    .comp-linet__text p {
+        max-width: 160px;
+    }
+
+    .company__linetexts .comp-linet__bottom .comp-linet__text,
+    .company__linetexts .comp-linet__top .comp-linet__text {
+        margin-bottom: 275px;
+    }
+
+    .company__linetexts {
+        margin-bottom: 15px;
+    }
+
+    .company__post {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .company__post-pic .picbox {
+        width: calc(100% - 24px);
+        margin-top: 24px;
+        height: 245px;
+    }
+
+    .company__post-pic .colorbox {
+        width: 320px;
+        height: 245px;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text:last-child {
+        margin-bottom: 150px;
+    }
+
+    .company__post-pic .picbox img,
+    .company__post-pic a:hover .picbox img {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .company__post-descr {
+        padding-top: 30px;
+    }
+
+    .company__post-descr .descr {
+        padding: 10px 10px 15px 10px;
+    }
+
+    .company__post {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .company__posts .company__post:nth-child(even) .col-lg-6 {
+        order: 1;
+    }
+
+    .company__posts .company__post:nth-child(even) .col-lg-5 {
+        order: 2;
+    }
+
+    .company__posts .company__post:nth-child(even) .company__post-descr .title {
+        text-align: right;
+    }
+
+    .company__posts .company__post:nth-child(even) .company__post-descr .title:before {
+        left: initial;
+        right: 0;
+    }
+
+    .company__posts .company__post:nth-child(even) .col-lg-5.offset-lg-1 {
+        margin-right: 0;
+    }
+
+
+    .company-machinery .slick-arrow,
+    .company-project__slider .slick-arrow {
+        height: 60px;
+        width: 22px;
+        background-size: 100% 100%;
+    }
+
+    .company-machinery .slick-slide {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+
+    .company-machinery__slide {
+        height: 350px;
+    }
+
+    .company-characteristics {
+        max-width: 100%;
+        padding: 0 95px;
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .company-project {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .company-project__slider {
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    .company-project__slider .slick-slide {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .company-project__slider .company-project__slide a {
+        display: block;
+    }
+
+    .company-project__slider .slick-slide .company-project__slide a {
+        font-size: 17px;
+        max-width: 115px;
+        padding: 5px 0;
+        display: block;
+        font-family: AkrobatSemiBold;
+        color: #f9c31f;
+        text-transform: uppercase;
+        background-color: #141c2f;
+        border-radius: 37px;
+        -webkit-border-radius: 37px;
+        -moz-border-radius: 37px;
+        -ms-border-radius: 37px;
+        -o-border-radius: 37px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .company-project__slider .slick-slide.slick-current .company-project__slide .descrbox .title,
+    .company-project__slider .slick-slide .company-project__slide .descrbox .title {
+        font-size: 17px;
+        color: #f9c31f;
+    }
+
+    .company-project__slider .company-project__slide {
+        padding: 12px 35px;
+    }
+
+    .company-project__slider .slick-arrow {
+        margin-top: 0;
+    }
+
+    .company-project h3 {
+        margin-bottom: 30px;
+    }
+
+    .company-project {
+        position: relative;
+        z-index: 2;
+    }
+
+    .company-bottpic {
+        /* top: -100px; */
+    }
+
+    .technology h3 {
+        padding: 12px 0;
+    }
+
+    .company__posts.noborder .company__post:first-child {
+        padding-top: 0;
+    }
+
+    header.header {
+        z-index: 99;
+    }
+
+    .company-slidersect {
+        padding: 0 95px;
+    }
+
+    .machinery h3 {
+        font-size: 29px;
+        padding: 11px 0;
+    }
+
     /* fz */
     .mark-news span,
     .mark-newstop span {
         font-size: 12px;
+    }
+
+    .comp-linet__text p {
+        font-size: 14px;
     }
 
     .new__textblock .date,
@@ -1070,6 +1852,24 @@
     .abvtext .subtitle,
     .abvtext .descr p {
         font-size: 17px;
+    }
+
+    .company__post-descr .descr p {
+        font-size: 19px;
+    }
+
+    .diract__titlebox .title,
+    .company-project h3 {
+        font-size: 21px;
+    }
+
+    .technology h3 {
+        font-size: 29px;
+    }
+
+    .geograph-projlink,
+    .company__post-descr .title {
+        font-size: 24px;
     }
 
     .news h3 {
@@ -1089,9 +1889,7 @@
         font-size: 37px;
     }
 
-    .geograph-projlink {
-        font-size: 24px;
-    }
+
 
     .about__vertboxes .left:before {
         display: none;
@@ -1160,6 +1958,12 @@
 
 }
 
+@media(max-width:500.8px) {
+    .company-machinery__slide {
+        height: 280px;
+    }
+}
+
 @media(max-width:420.8px) {
 
     .footer__topsect .footer__box:first-child,
@@ -1175,6 +1979,55 @@
     .footer__topsect .footer__box {
         text-align: center;
     }
+
+    .comp-linet__bottom .comp-linet__text:after,
+    .comp-linet__top .comp-linet__text:after {
+        width: 30px;
+    }
+
+    .company__linetexts .comp-linet__bottom .comp-linet__text {
+        padding-left: 35px;
+        padding-right: 5px;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text {
+        padding-right: 35px;
+        padding-left: 5px;
+    }
+
+    .company__linetexts .comp-linet__bottom .comp-linet__text,
+    .company__linetexts .comp-linet__top .comp-linet__text {
+        margin-bottom: 200px;
+    }
+
+    .company__linetexts .comp-linet__top .comp-linet__text:first-child {
+        margin-top: 100px;
+    }
+
+    .company-slidersect,
+    .company-characteristics {
+        padding: 0 45px;
+    }
+
+    .company-machinery .slick-next.slick-arrow,
+    .company-project__slider .slick-next.slick-arrow {
+        right: -30px;
+    }
+
+    .company-machinery .slick-prev.slick-arrow,
+    .company-project__slider .slick-prev.slick-arrow {
+        left: -30px;
+    }
+
+    .company__post .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .company__post .row .col-lg-6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media(max-width:414.8px) {
@@ -1187,6 +2040,8 @@
         max-width: 150px;
     }
 }
+
+
 
 @media(max-width:360.8px) {
     .container-sect {
@@ -1222,7 +2077,37 @@
         padding-bottom: 0;
     }
 
+    .company__post-pic .colorbox {
+        width: calc(100% - 15px);
+        height: 200px;
+    }
 
+    .company__post-pic .picbox {
+        width: calc(100% - 15px);
+        margin-top: 15px;
+        height: 200px;
+    }
+
+    .company-project__slider {
+        width: calc(100% - 90px);
+    }
+
+    .company-project__slider .company-project__slide {
+        padding: 10px;
+    }
+
+    .company-project__slider .slick-slide.slick-current .company-project__slide .descrbox .title {
+        font-size: 15px;
+    }
+
+
+
+
+
+    .company__posts {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     /* fz */
     .news h3,
@@ -1230,9 +2115,17 @@
         font-size: 32px;
     }
 
+    .diract__titlebox .title {
+        font-size: 18px;
+    }
+
     .abvtext .subtitle,
     .abvtext .descr p {
         font-size: 16px;
+    }
+
+    .company-firstscreen>p {
+        font-size: 42px;
     }
 }
 
