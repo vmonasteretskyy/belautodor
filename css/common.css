@@ -546,7 +546,7 @@ header.header {
     position: relative;
     max-width: 84%;
     width: 100%;
-
+    position: relative;
 }
 
 .about__linetexts-top .about_cont {
@@ -778,6 +778,15 @@ header.header {
     font-size: 30px;
     text-transform: uppercase;
     display: block;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.footer__list li a:hover {
+    opacity: .7;
 }
 
 .footer__list li:first-child a {
@@ -2058,6 +2067,22 @@ text.countanim {
 .technology .subtitle {
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* font-family: GothaProNarMed;
     font-family: GothaProBold;

@@ -162,10 +162,6 @@
         width: 4px;
     }
 
-    .comp-linet__text:after {
-        height: 70px;
-    }
-
     .company__linetexts .comp-linet__top {
         height: 230px;
         padding-bottom: 100px;
