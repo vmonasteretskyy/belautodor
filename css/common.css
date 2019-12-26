@@ -2069,14 +2069,90 @@ text.countanim {
 }
 
 
+/* - line animation */
+@media(min-width:1024.8px) {
 
+    /* company */
+    .company__linetexts.linehidd .comp-linet__top:after {
+        width: 0;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
 
+    .company__linetexts.linehidd.visible .comp-linet__top:after {
+        width: 100%;
+    }
 
+    .company__linetexts.linehidd .comp-linet__top .comp-linet__text:after,
+    .company__linetexts.linehidd .comp-linet__text:after {
+        height: 0;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
 
+    .company__linetexts.linehidd.visible .comp-linet__top .comp-linet__text:after,
+    .company__linetexts.linehidd.visible .comp-linet__text:after {
+        height: 96px;
+    }
 
+    /* index */
 
+    .about__linetexts.mainlinehidd .about__linetexts-top .about_cont {
+        border-bottom: none;
+    }
 
+    .about__linetexts.mainlinehidd .about__linetexts-top .about_cont:after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        right: 0;
+        height: 4px;
+        background-color: #dab544;
+        width: 0;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
 
+    .about__linetexts.mainlinehidd.visible .about__linetexts-top .about_cont:after {
+        width: 100%;
+    }
+
+    .about__linetexts.mainlinehidd .about__linetexts-top span:after {
+        height: 0;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+
+    .about__linetexts.mainlinehidd.visible .about__linetexts-top span:after {
+        height: 62px;
+    }
+
+    .about__linetexts.mainlinehidd .about__linetexts-bottom span:after {
+        height: 0;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+
+    .about__linetexts.mainlinehidd.visible .about__linetexts-bottom span:after {
+        height: 62px;
+    }
+
+}
 
 
 
