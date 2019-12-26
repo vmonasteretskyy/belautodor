@@ -1,3 +1,9 @@
+@media(max-width:1900.8px) {
+    .company__post-descr .title {
+        font-size: 34px;
+    }
+}
+
 @media(max-width:1600.1px) {
     .header__logo a img {
         max-width: 200px;
@@ -278,6 +284,8 @@
     .company-firstscreen>p {
         margin-top: -100px;
     }
+
+
 
     /*1600 fz */
     .abvtext .descr p {
