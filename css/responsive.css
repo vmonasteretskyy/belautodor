@@ -1172,6 +1172,10 @@
         max-height: 420px;
     }
 
+    .header.blue .header__nav ul li:hover:after {
+        display: none;
+    }
+
     /* 991 fa */
     .diract__titlebox .title,
     .machinery h3,
