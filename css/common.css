@@ -2155,6 +2155,215 @@ text.countanim {
 }
 
 
+/* NEWS================================================================================== */
+.company-firstscreen.newstop {
+    text-transform: uppercase;
+    padding-top: 0;
+}
+
+.directions-activity.news-sect h1 {
+    color: #141c2f;
+    font-size: 58px;
+    font-family: AkrobatBold;
+    width: 490px;
+    padding: 3px 0;
+    margin: 0 auto 160px;
+}
+.tabs_title {
+    text-align: center;
+    margin-bottom: 125px;
+}
+.tabs_title span {
+    font-family: AkrobatBold;
+    font-size: 36px;
+    color: #141c2f;
+    background-color: #878b95;
+    width: 230px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 35px;
+    margin: 0 60px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.tabs_title span.active {
+    background-color: #dab544;
+    border-radius: 35px 35px 0 0;
+}
+.tabs_title span:hover {
+    background-color: #dab544;
+    border-radius: 35px 35px 0 0;
+}
+
+.tabcontenblock {
+    width: calc(100% - 300px);
+    margin: 0 auto;
+    max-width: 1715px;
+}
+
+.news_picnew {
+    position: relative;
+}
+
+.news_picnew img {
+    width: 100%;
+}
+
+.news_descrnew .date {
+    font-family: AkrobatBold;
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.news_descrnew .title {
+    font-family: GothaProNarMed;
+    font-size: 25px;
+    color: #dab544;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.news_descrnew .descr {
+    font-family: AkrobatBold;
+    font-size: 21px;
+    color: #fff;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+.news_descrnew a {
+    font-family: GothaProNarMed;
+    font-size: 20px;
+    color: #dab544;
+    display: inline-flex;
+    height: 48px;
+    width: 188px;
+    border: 3px solid #dab544;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius:20px;
+    -o-border-radius: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.news_descrnew a:hover {
+    background-color: #dab544;
+    color: #141c2f;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.tabcontenblock .row {
+    margin-bottom: 110px;
+}
+.tabcontenblock .row:nth-child(even) .col-md-5:first-child {
+    order: 2;
+}
+
+.tabcontenblock .row:nth-child(even) .col-md-5:nth-child(2) {
+    order: 1;
+    margin-right: 8.333333%;
+}
+
+.tabcontenblock .row:nth-child(even) .col-md-5:nth-child(2) .news_descrnew  {
+    text-align: right;
+}
+
+.morenews-box {
+    text-align: center;
+    margin-top: 150px;
+}
+.morenews-box a {
+    display: inline-block;
+    font-family: AkrobatSemiBold; 
+    color: #dab544;
+    font-size: 56px;
+    border-radius: 50px;
+    border: 2px solid #dab544;
+    text-transform: uppercase;
+    width: 290px;
+    text-align: center;
+    padding: 14px 0;
+    transition: .5s;
+}
+
+.directions-activity.news-sect {
+    padding-bottom: 130px;
+}
+.morenews-box a:hover {
+    color: #141c2f;
+    background-color: #dab544;
+}
+
+.tabcontent.videotab iframe {
+    width: 100%;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.embed-responsive:before {
+    padding-top: 56.25%;
+    display: block;
+    content: "";
+}
+
+.embed-responsive:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.videobox  {
+    margin-bottom: 80px;
+}
+
+.videobox .title {
+    font-family: AkrobatBold;
+    font-size: 54px;
+    color: #dab544;
+    margin: 25px 0 0 0;
+}
+
+.videobox.littvideo .title {
+    font-size: 26px;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tabcontent.newtab {
+    display: block;
+}
+
 
 
 

@@ -141,8 +141,23 @@ $(document).ready(function () {
         });
     });
 
+    $('.tabs_title .newbtn').click(function(){
+        $('.tabcontent').hide();
+        $('.tabcontent.newtab').show();
+    });
+    $('.tabs_title .videobtn').click(function(){
+        $('.tabcontent').hide();
+        $('.tabcontent.videotab').show();
+    });
+    $('.tabs_title .eventbtn').click(function(){
+        $('.tabcontent').hide();
+        $('.tabcontent.eventtab').show();
+    });
 
-
+    $('.tabs_title span').click(function(){
+        $('.tabs_title span').removeClass('active');
+        $(this).addClass('active');
+    });
 
 
 });
