@@ -341,16 +341,115 @@
         margin-top: 10px;
     }
 
+    .directions-activity.project-sect .diract__titlebox {
+        margin-top: -150px;
+    }
 
+    .project-block {
+        max-width: 800px;
+    }
 
+    .project-block__picbox .yellowblock {
+        height: 570px;
+    }
 
+    .project-block__textbox .title:after {
+        height: 3px;
+        width: 180px;
+    }
 
+    .project-block__textbox .title {
+        padding-bottom: 25px;
+    }
 
+    .project-block__picbox {
+        margin-bottom: 30px;
+    }
 
+    .yellowbox__textbox p {
+        font-size: 24px;
+    }
+
+    .yellowbox__textbox {
+        width: 300px;
+        min-height: 100px;
+    }
+
+    .yellowboxes .yellowbox {
+        max-width: 706px;
+    }
+
+    .contact-topscreen__title {
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    .contact-topscreen {
+        height: 400px;
+    }
+
+    .contact-topscreen {
+        margin-top: 95px;
+    }
+
+    .contact__form .title {
+        font-size: 32px;
+    }
+
+    .contact__map .contblock .title {
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+
+    .contact__map .contblock .title:after {
+        height: 2px;
+        width: 70px;
+    }
+
+    .contact__map .contblock ul li,
+    .contact__map .contblock ul li a {
+        font-size: 22px;
+    }
+
+    #contact-form {
+        padding-left: 15%;
+    }
+
+    #contact-form input {
+        height: 50px;
+        padding-left: 20px;
+        font-size: 20px;
+        margin-bottom: 25px;
+        border-width: 1px;
+    }
+
+    #contact-form textarea {
+        padding-left: 20px;
+        font-size: 20px;
+        border-width: 1px;
+    }
+
+    #contact-form input[type="submit"] {
+        font-size: 22px;
+    }
+
+    .contact__form {
+        padding-bottom: 100px;
+    }
+
+    .contact__map .contblock {
+        width: 80%;
+        right: -40px;
+    }
+
+    .contact__form .title {
+        margin-left: -40px;
+    }
 
     /*1600 fz */
     .abvtext .descr p,
-    .news_descrnew .descr {
+    .news_descrnew .descr,
+    .projmap {
         font-size: 16px;
     }
 
@@ -370,7 +469,9 @@
     .company-project h3,
     .company-characteristics__slide>p,
     .directions-activity.news-sect h1,
-    .videobox .title {
+    .videobox .title,
+    .project-video .title,
+    .directions-activity.project-sect .diract__titlebox .title {
         font-size: 42px;
     }
 
@@ -380,7 +481,8 @@
     .machinery .subtitle,
     .technology .subtitle,
     .company-project .subtitle,
-    .morenews-box a {
+    .morenews-box a,
+    .project-block__textbox .title {
         font-size: 32px;
     }
 
@@ -945,7 +1047,15 @@
         padding: 6px 0;
     }
 
-    /* max-width: 725px; */
+    .directions-activity.complineanim {
+        padding-top: 0;
+    }
+
+
+
+
+
+
 
 
 
@@ -1390,6 +1500,221 @@
         display: none;
     }
 
+    .directions-activity {
+        padding-top: 0;
+    }
+
+    .directions-activity.project-sect .diract__titlebox {
+        margin-top: 0;
+    }
+
+    .directions-activity.project-sect .diract__titlebox .title {
+        font-size: 26px;
+    }
+
+    .directions-activity.project-sect .diract__titlebox .title {
+        max-width: 405px;
+        padding: 4px 0;
+        margin-bottom: 30px;
+    }
+
+    .projmap {
+        font-size: 10px;
+    }
+
+    .project-block {
+        padding-top: 30px;
+    }
+
+    .project-block {
+        max-width: 660px;
+    }
+
+    .project-block__picbox>img {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+    .project-block__picbox .yellowblock {
+        height: 465px;
+    }
+
+    .yellowbox__textbox {
+        width: 260px;
+    }
+
+    .rbline:after {
+        width: 83px;
+        right: -83px;
+    }
+
+    .rbline:before {
+        bottom: -83px;
+        right: -83px;
+        height: 83px;
+    }
+
+    .yellowboxes .yellowbox {
+        margin: 0 auto 70px;
+    }
+
+    .mline:after {
+        width: 85px;
+        left: -82px;
+    }
+
+    .lbline:after {
+        width: 85px;
+        left: -85px;
+    }
+
+    .lbline:before {
+        height: 85px;
+        left: -85px;
+        bottom: -85px;
+    }
+
+    .project-block__textbox .title {
+        margin-bottom: 75px;
+    }
+
+    .project-video__wrapper {
+        width: calc(100% - 120px);
+    }
+
+    .project-video .title {
+        font-size: 23px;
+    }
+
+    .project-video {
+        padding-bottom: 90px;
+    }
+
+    .contact-topscreen {
+        margin-top: 0;
+    }
+
+    .contact-topscreen {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-topscreen__title {
+        font-size: 49px;
+        margin: 0;
+    }
+
+    .contact__map {
+        background-image: none;
+        box-shadow: none;
+    }
+
+    .contact__map,
+    .contact__form {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .contact__map .contblock {
+        position: relative;
+        right: initial;
+        width: 380px;
+        border-radius: 20px 20px 0 20px;
+        -webkit-border-radius: 20px 20px 0 20px;
+        -moz-border-radius: 20px 20px 0 20px;
+        -ms-border-radius: 20px 20px 0 20px;
+        -o-border-radius: 20px 20px 0 20px;
+        padding: 20px 20px 70px 55px;
+    }
+
+    .contact__form .title {
+        margin-left: 380px;
+        padding: 5px 25px 5px 30px;
+    }
+
+    .contact__map .contblock .title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .contact__map .contblock ul li,
+    .contact__map .contblock ul li a {
+        font-size: 25px;
+    }
+
+    .contact__form .title {
+        font-size: 24px;
+        margin-bottom: 45px;
+    }
+
+    .contact__form {
+        margin-top: -39px;
+        padding-bottom: 80px;
+        position: relative;
+        z-index: 1;
+    }
+
+    #contact-form {
+        padding-left: 0;
+        max-width: 530px;
+        margin: 0 auto;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        width: 100%;
+    }
+
+    #contact-form input {
+        height: 58px;
+        font-size: 24px;
+        margin-bottom: 35px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    #contact-form textarea {
+        font-size: 24px;
+        margin-bottom: 35px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    #contact-form input[type="submit"] {
+        font-size: 28px;
+    }
+
+    .contact-content {
+        background-image: url(../image/tabletampbg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .contact-content__wrap:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 130px;
+        background: linear-gradient(to top, #141c2f 60%, #141c2f 30%, rgba(0, 0, 0, 0));
+    }
+
+    .contact-content__wrap {
+        position: relative;
+    }
+
+
     /* 991 fa */
     .diract__titlebox .title,
     .machinery h3,
@@ -1758,9 +2083,9 @@
     }
 
     .footer__topsect .footer__box:nth-child(4) {
-        -ms-flex: 0 0 44%;
-        flex: 0 0 44%;
-        max-width: 44%;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
     }
 
     .footer__list {
@@ -2031,10 +2356,6 @@
         z-index: 2;
     }
 
-    .company-bottpic {
-        /* top: -100px; */
-    }
-
     .technology h3 {
         padding: 12px 0;
     }
@@ -2056,6 +2377,90 @@
         padding: 11px 0;
     }
 
+    .directions-activity.complineanim {
+        padding-top: 0;
+    }
+
+    .contact-topscreen__title {
+        font-size: 34px;
+    }
+
+    .contact__map .contblock {
+        width: 240px;
+        padding: 15px 15px 40px 15px;
+    }
+
+    .contact__form .title {
+        margin-left: 239px;
+    }
+
+    .contact__map .contblock .title {
+        font-size: 20px;
+    }
+
+    .contact__map .contblock ul li,
+    .contact__map .contblock ul li a {
+        font-size: 19px;
+    }
+
+    .contact__map .contblock .title:after {
+        width: 65px;
+    }
+
+    .contact__form .title {
+        font-size: 16px;
+        padding: 2px 15px 2px 5px;
+        margin-bottom: 30px;
+    }
+
+    .contact__form {
+        margin-top: -23px;
+    }
+
+    .contact__map .contblock .title {
+        margin-bottom: 15px;
+    }
+
+    .contact__map .contblock ul li {
+        margin-bottom: 5px;
+    }
+
+    #contact-form {
+        max-width: 350px;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        border-width: 2px;
+    }
+
+    #contact-form input {
+        height: 36px;
+        font-size: 15px;
+        margin-bottom: 23px;
+    }
+
+    #contact-form textarea {
+        font-size: 15px;
+        margin-bottom: 23px;
+        height: 80px;
+        padding-top: 10px;
+    }
+
+    #contact-form input[type="submit"] {
+        font-size: 22px;
+    }
+
+    #contact-form input[type="submit"] {
+        height: 40px;
+    }
+
+    .contact__form {
+        padding-bottom: 40px;
+    }
+
+
+    /* 767 */
     /* fz */
     .mark-news span,
     .mark-newstop span {
@@ -2291,6 +2696,180 @@
     .videobox.littvideo .title {
         font-size: 20px;
     }
+
+    .directions-activity.project-sect {
+        padding-top: 0;
+    }
+
+    .projmap {
+        padding: 5px 10px;
+        border-radius: 10px 0 10px 0;
+        -webkit-border-radius: 10px 0 10px 0;
+        -moz-border-radius: 10px 0 10px 0;
+        -ms-border-radius: 10px 0 10px 0;
+        -o-border-radius: 10px 0 10px 0;
+    }
+
+    .directions-activity.project-sect .diract__titlebox .title {
+        font-size: 22px;
+        max-width: 190px;
+        border-radius: 0 0 25px 25px;
+        -webkit-border-radius: 0 0 25px 25px;
+        -moz-border-radius: 0 0 25px 25px;
+        -ms-border-radius: 0 0 25px 25px;
+        -o-border-radius: 0 0 25px 25px;
+    }
+
+    .projmap.projmap__ternopil {
+        top: 25%;
+        left: 18%;
+    }
+
+    .projmap.projmap__kyiv {
+        top: 19%;
+    }
+
+    .project-block {
+        max-width: 350px;
+    }
+
+    .project-block__picbox>img {
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .project-block__picbox .yellowblock {
+        height: 245px;
+    }
+
+    .project-block__textbox .title {
+        font-size: 18px;
+    }
+
+    .project-block__picbox {
+        margin-bottom: 15px;
+    }
+
+    .project-block__picbox .yellowblock {
+        width: calc(100% - 25px);
+    }
+
+    .project-block__textbox {
+        padding: 0 15px;
+    }
+
+    .project-block__textbox .title {
+        padding-bottom: 10px;
+        margin-bottom: 45px;
+    }
+
+    .project-block__textbox .title:after {
+        width: 92px;
+        height: 2px;
+    }
+
+    .yellowbox__textbox {
+        width: 140px;
+        padding: 5px 5px 5px 10px;
+        min-height: 60px;
+    }
+
+    .yellowbox__textbox p {
+        font-size: 15px;
+    }
+
+    .yellowboxes .yellowbox:nth-child(odd) .yellowbox__textbox {
+        border-radius: 10px 0 0 10px;
+        -webkit-border-radius: 10px 0 0 10px;
+        -moz-border-radius: 10px 0 0 10px;
+        -ms-border-radius: 10px 0 0 10px;
+        -o-border-radius: 10px 0 0 10px;
+    }
+
+    .yellowboxes .yellowbox:nth-child(even) .yellowbox__textbox {
+        border-radius: 0 10px 10px 0;
+        -webkit-border-radius: 0 10px 10px 0;
+        -moz-border-radius: 0 10px 10px 0;
+        -ms-border-radius: 0 10px 10px 0;
+        -o-border-radius: 0 10px 10px 0;
+        padding: 5px 5px 5px 10px;
+    }
+
+    .rbline:after {
+        height: 2px;
+        width: 42px;
+        right: -42px;
+    }
+
+    .rbline:before {
+        width: 2px;
+        height: 42px;
+        bottom: -40px;
+        right: -42px;
+    }
+
+    .yellowboxes .yellowbox {
+        margin: 0 auto 40px;
+    }
+
+    .lline:after {
+        width: 42px;
+        height: 2px;
+        left: -42px;
+    }
+
+    .yellowboxes .yellowbox:nth-child(3) {
+        margin-top: -2px;
+    }
+
+    .bmline:after {
+        height: 150px;
+        bottom: -150px;
+        width: 2px;
+    }
+
+    .mline:after {
+        height: 2px;
+    }
+
+    .mline:after {
+        width: 42px;
+        left: -42px;
+    }
+
+    .lbline:after {
+        width: 42px;
+        left: -42px;
+        height: 2px;
+    }
+
+    .lbline:before {
+        height: 42px;
+        left: -42px;
+        bottom: -42px;
+        width: 2px;
+    }
+
+    .project-video__wrapper {
+        width: 100%;
+        padding: 0 15px;
+        max-width: 480px;
+    }
+
+    .project-video .title {
+        font-size: 22px;
+        margin-top: 14px;
+    }
+
+    .project-video {
+        padding-bottom: 40px;
+        padding-top: 0;
+    }
+
+    .company-firstscreen.newstop>p {
+        font-size: 30px;
+    }
+
 }
 
 @media(max-width:500.8px) {
@@ -2376,6 +2955,22 @@
     .tabs_title span {
         width: 98px;
     }
+
+    .contact__form .title {
+        width: 136px;
+    }
+
+    .contact__form {
+        margin-top: -42px;
+    }
+
+    #contact-form {
+        max-width: 320px;
+    }
+
+
+
+
 }
 
 @media(max-width:414.8px) {
@@ -2389,7 +2984,52 @@
     }
 }
 
+@media(max-width:374.8px) {
+    .project-block {
+        max-width: 320px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
+    .project-block__picbox .yellowblock {
+        height: calc(100% - 30px);
+    }
+
+    .project-block__textbox {
+        padding: 0;
+    }
+
+    .yellowbox__textbox {
+        width: 125px;
+    }
+
+    .yellowbox__textbox p {
+        font-size: 13px;
+    }
+
+    .contact__form {
+        margin-top: 0;
+    }
+
+    .contact__form .title {
+        width: auto;
+        margin-left: 0;
+        margin-top: -1px;
+    }
+
+    .contact__map .contblock {
+        border-radius: 20px 20px 20px 0;
+        -webkit-border-radius: 20px 20px 20px 0;
+        -moz-border-radius: 20px 20px 20px 0;
+        -ms-border-radius: 20px 20px 20px 0;
+        -o-border-radius: 20px 20px 20px 0;
+    }
+
+    #contact-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 
 @media(max-width:360.8px) {
     .container-sect {
@@ -2461,6 +3101,22 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* fz */
     .news h3,

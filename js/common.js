@@ -141,24 +141,42 @@ $(document).ready(function () {
         });
     });
 
-    $('.tabs_title .newbtn').click(function(){
+    $('.tabs_title .newbtn').click(function () {
         $('.tabcontent').hide();
         $('.tabcontent.newtab').show();
     });
-    $('.tabs_title .videobtn').click(function(){
+    $('.tabs_title .videobtn').click(function () {
         $('.tabcontent').hide();
         $('.tabcontent.videotab').show();
     });
-    $('.tabs_title .eventbtn').click(function(){
+    $('.tabs_title .eventbtn').click(function () {
         $('.tabcontent').hide();
         $('.tabcontent.eventtab').show();
     });
 
-    $('.tabs_title span').click(function(){
+    $('.tabs_title span').click(function () {
         $('.tabs_title span').removeClass('active');
         $(this).addClass('active');
     });
+    // INPUT MASK========================================================================
+    if ($('*').is('.form-section')) {
+        $('.email-input').inputmask({
+            mask: "*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[.*{2,6}][.*{1,2}]",
+            greedy: false,
+            onBeforePaste: function (pastedValue, opts) {
+                pastedValue = pastedValue.toLowerCase();
+                return pastedValue.replace("mailto:", "");
+            },
+            definitions: {
+                '*': {
+                    validator: "[0-9A-Za-z!#$%&'*+/=?^_`{|}~\-]",
+                    casing: "lower"
+                }
+            }
+        });
 
+        $(".phone-input").inputmask({ "mask": "(999) 999-9999" });
+    }
 
 });
 
